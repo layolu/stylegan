@@ -41,7 +41,7 @@ if 1:
     #desc += '-bedroom';  dataset = EasyDict(tfrecord_dir='lsun-bedroom-full');    train.mirror_augment = False
     #desc += '-car';      dataset = EasyDict(tfrecord_dir='lsun-car-512x384');     train.mirror_augment = False
     #desc += '-cat';      dataset = EasyDict(tfrecord_dir='lsun-cat-full');        train.mirror_augment = False
-    desc += '-mdhm128';     dataset = EasyDict(tfrecord_dir='/content/gdrive/My Drive/mdhm_128dataset');       train.mirror_augment = True
+    desc += '-dyh128';     dataset = EasyDict(tfrecord_dir='/content/gdrive/My Drive/mdhm_128dataset');       train.mirror_augment = True
 
 
     # Number of GPUs.
